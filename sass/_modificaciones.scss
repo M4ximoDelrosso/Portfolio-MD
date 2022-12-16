@@ -1,0 +1,40 @@
+.texto{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex; 
+    flex-wrap: wrap;
+    }
+    .texto:hover{
+    color: #fff;
+    }
+
+.h-pers{
+    height: 18rem;
+    }
+
+@media (min-width: 350px) {
+    .card-body {
+        width: 18rem;
+    }
+    }
+    
+    @media (min-width: 500px) {
+    .card-body {
+        width: 21rem;
+    }
+    }
+    
+    @media (min-width: 1424px) {
+    .card-body {
+        width: 23rem;
+    }
+    }
+    
+    @media (min-width: 1600px) {
+    .card-body {
+        width: 25rem;
+    }
+    }
